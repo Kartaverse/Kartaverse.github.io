@@ -28,7 +28,7 @@ The KartaLink [Spatial Metadata](https://kartaverse.github.io/Kartaverse-Docs/#/
 
 ## Vonk Ultra Data Nodes
 
-The [Vonk Ultra documentation](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) is accessible on Google Docs. Vonk is a collection of data nodes based tools that help technical artists take their workflows to the next level.
+Vonk is a collection of BMD Resolve/Fusion data node based tools that help technical artists take their workflows to the next level.
 
 # Kartaverse 6 New Features (In Development Now)
 
