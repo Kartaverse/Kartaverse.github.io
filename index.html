@@ -321,27 +321,48 @@ img {
 }</style>
 </head>
 <body><h1>About Kartaverse</h1>
-<p>Kartaverse is an academic research project exploring computational imaging techniques. The Kartaverse software provides a free open-source post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!</p>
+<p>This is an academic research project exploring computational imaging techniques. Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!</p>
 <p>&quot;Karta&quot; is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.</p>
 <p>Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based <a href="https://www.blackmagicdesign.com/products/fusion">Fusion Studio</a> and <a href="https://www.blackmagicdesign.com/products/davinciresolve/">DaVinci Resolve Studio</a> software.</p>
+<p>Note: Resolve (Free) v19.0.3 is supported but later builds of Resolve (Free) v19.1-20+ removed the &quot;UI Manager&quot; GUI scripting support which impacts KartaVR, the Reactor Package Manager, and many other Fusion community created tools.</p>
 <h1>Installation</h1>
-<p>Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the <a href="https://www.steakunderwater.com/wesuckless/viewtopic.php?f=32&amp;t=3067">WSL Reactor package manager</a> for Resolve/Fusion. Install the Reactor package manager, and select the &quot;Kartaverse&quot; category on the left side of the Reactor GUI to access the tools.</p>
-<p>Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager.</p>
+<p>Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the <a href="https://kartaverse.github.io/Reactor-Docs/#/reactor">Reactor package manager</a> for Resolve/Fusion. Install the Reactor package manager, and select the &quot;Kartaverse&quot; category on the left side of the Reactor GUI to access the tools.</p>
+<p>Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.</p>
 <h1>For More Information</h1>
-<h2>KartaVR</h2>
-<p>The <a href="https://kartaverse.github.io/Kartaverse-Docs/#/">KartaVR documentation</a> is hosted on GitHub.io.</p>
-<h2>Kartaverse Learning Resources</h2>
-<p>A &quot;<a href="https://docs.google.com/document/d/1tewIaHZh8mWI8x5BzlpZBkF8eXhK2b_XhTWiU_93HBA">Kartaverse Workflows | Immersive Pipeline Integration Guide</a>&quot; learning resource is available. The free guide has over 512 pages of content that covers the primary steps required to get a working content creation pipeline established from scratch for artists working at a freelancer, or small boutique studio scale of operation. Additional, expanded chapters cover broader Resolve/Fusion page usage concepts that will help you take your composting and 360VR content creation skills to the next level.</p>
-<h2>Kartaverse Pano Tools Data Nodes</h2>
-<p><a href="https://kartaverse.github.io/PT-Data-Nodes-Docs/">Kartaverse PT</a> is a new set of data nodes that allow live-link access in Fusion to PTGui Pro .pts project files. This is the start of a new way to work with panoramic data in Fusion.</p>
+<h2>Spatial Metadata GUI</h2>
+<p>The <a href="https://github.com/Kartaverse/Spatial-Metadata">Spatial Metadata GUI</a> allows you to prepare MV-HEVC encoded immersive content for playback on Apple Vision Pro and Meta Quest HMDs.</p>
+<h2>KartaVR for BMD Resolve Studio/Fusion Studio</h2>
+<p><a href="https://kartaverse.github.io/Kartaverse-Docs/#/">Kartaverse for Fusion</a> provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, KartaVR can help you create it in XR!</p>
+<p>Check out the <a href="https://kartaverse.github.io/Kartaverse-Docs/#/tutorials">KartaVR video tutorials here</a>.</p>
+<h2>Kartaverse for Houdini</h2>
+<p><a href="https://kartaverse.github.io/Kartaverse-for-Houdini">Kartaverse for Houdini</a> is a port of the Kartaverse open-source XR pipeline tools for SideFX Houdini. Houdini TOPS (Task Operator) automation of Multi-View Stereo and volumetric video workflows are some of the main features of this project.</p>
 <h2>Vonk Ultra Data Nodes</h2>
-<p>The <a href="https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing">Vonk Ultra documentation</a> is accessible on Google Docs and the <a href="https://www.steakunderwater.com/wesuckless/viewtopic.php?p=41165#p41165">development thread</a> is on the Steakunderwater forum. Vonk is a collection of data nodes based tools that help technical artists take their workflows to the next level.</p>
+<p><a href="https://kartaverse.github.io/VonkUltra/">Vonk Ultra</a> provides a new era of no-code creativity inside of Blackmagic Resolve Studio/Fusion Studio. Data nodes allow you to connect text, JSON, arrays, and matrices to create stunning generative visuals.</p>
+<p>The new vMograph tools are the next generation of Vonk Ultra technology that help power dynamic motion graphics. Create data driven graphics with the help of a large collection of modifier nodes, and a fuse-based 2D and 3D vector rendering engine.</p>
+<p>Vonk Ultra is a collection of data nodes for Blackmagic Design Resolve/Fusion. Vonk can be thought of as node-based modifiers that live in the flow. These node-based operations provide a no-code alternative to using expressions or custom scripts.</p>
+<h2>Panotools Data Nodes for BMD Resolve/Fusion</h2>
+<p><a href="https://kartaverse.github.io/PT-Data-Nodes-Docs/">Kartaverse PT</a> is a new set of data nodes that allow live-link access in BMD Resolve/Fusion to PTGui Pro .pts project files. This is the start of a new way to work with panoramic data in Fusion.</p>
+<h2>Kartascript for Python</h2>
+<p><a href="https://github.com/Kartaverse/Kartascript">Kartascript</a> is a Python module for immersive post-production workflow automation. It provides PTGui .pts JSON file parsing tools.</p>
+<h1>Kartaverse Learning Resources</h1>
+<h2>Reactor Package Manager Online</h2>
+<p>An <a href="https://kartaverse.github.io/Reactor-Docs/#/reactor">online web accessible version</a> of the Reactor Package Manager content is available.</p>
+<p>Reactor is a package manager for Fusion and Resolve. Reactor streamlines the installation of 3rd party content through the use of &quot;Atom&quot; packages that are synced automatically with a Git repository. The Fusion community developed the Reactor software as a group effort to create a single-stop resource that hosts the largest collection of curated content for extending the capabilities of Resolve/Fusion. Reactor also includes a lot of content that was previously available only on the VFXPedia resource.</p>
+<p>Note: If you are running Resolve Free, keep in mind Resolve Free v19.0.3 is the final version of Resolve that is compatible with Reactor. Resolve Free v19.1 removed scripting access for GUIs like Reactor.</p>
+<h2>Immersive Pipeline Integration Guide</h2>
+<p>A &quot;<a href="https://docs.google.com/document/d/1tewIaHZh8mWI8x5BzlpZBkF8eXhK2b_XhTWiU_93HBA">Kartaverse Workflows | Immersive Pipeline Integration Guide</a>&quot; learning resource is available. The free guide has over 512 pages of content that covers the primary steps required to get a working content creation pipeline established from scratch for artists working at a freelancer, or small boutique studio scale of operation. Additional, expanded chapters cover broader Resolve/Fusion page usage concepts that will help you take your composting and 360VR content creation skills to the next level.</p>
+<h2>XR LED Panel Database</h2>
+<p>Kartaverse publishes an <a href="https://kartaverse.github.io/XR-LED-Panel-Database/">open-source database for XR stage displays</a>. If you need to quickly and easily track down the technical specs for XR stage LED panels, video projectors, and more this is the database for you!</p>
 <h1>Social Media</h1>
+<h2>GitHub Repos</h2>
+<p>The <a href="https://github.com/Kartaverse">Kartaverse repositories</a> are available on GitHub.</p>
 <h2>Facebook Group</h2>
 <p>Check out the <a href="https://www.facebook.com/groups/kartavr">KartaVR Facebook Group</a> if you want to read the latest Kartaverse news, or talk directly with other  users.</p>
-<h2>Kartaverse Blog</h2>
+<h2>Reddit Group</h2>
+<p>Check out the <a href="https://www.reddit.com/r/Kartaverse/">r/Kartaverse Reddit</a>. This Reddit community is where you can ask technical questions about immersive media post-production, and get answers to all things KartaVR, Vonk Ultra, and XR related.</p>
+<h2>Medium Blog</h2>
 <p>The <a href="https://medium.com/@andrewhazelden">Kartaverse Blog</a> is hosted on Medium.</p>
-<h2>Kartaverse Technical Support</h2>
-<p>Technical support for Kartaverse is handled by the official <a href="https://groups.google.com/g/kartaverse/">Kartaverse Google Group</a>. If you've got a question about 360VR and immersive workflows in Resolve and Fusion Standalone, the Kartaverse User Group is the place to get it answered.</p>
+<h2>Google Group</h2>
+<p>Technical support for Kartaverse is typically handled by the <a href="https://groups.google.com/g/kartaverse/">Kartaverse Google Group</a>. If you've got a usage question about 360VR and immersive workflows in Resolve and Fusion Standalone, the Kartaverse Google Group is the place to get it answered.</p>
 </body>
 </html>
